@@ -1,0 +1,62 @@
+/*Ändras alla sidor body*/
+body{
+    margin: 0px;
+    background-color: black;
+    color: #eee;
+}
+
+
+/* Ändrar allt med headern*/
+header nav{
+  display: grid;
+  grid-template-columns: 2fr 4fr 2fr;
+  background-color: rgb(122, 122, 122);
+ 
+}
+/*Ändrar länkarna färg och annat*/
+a{
+  font-family:Comic Sans MS;
+  color: #eee;
+  font-size: 1.25rem;
+  margin:auto ;
+ }
+ 
+
+/*Centerar Länkerna*/
+nav ul {
+    text-align: center;
+    list-style: none;
+    padding: 0px;
+  }
+/*Gör så att de ligger horisontalt inte verticalt*/ 
+nav ul li {
+    list-style: none;
+    display: inline-block;
+    padding: 10px 15px;
+    position: relative;
+  }
+/*Gör så att det inte är en underline på länkarna*/
+nav ul li a {
+    color:#eee;
+    text-decoration: none;
+    font-size: 20px;
+  }
+
+/*Hover effekt på länkarna*/
+nav ul li::after {
+    content: "";
+    width: 0%;
+    height: 1px;
+    background: black;
+    display: block;
+    margin: auto;
+    transition: 0.5s;
+    margin-top: -.1em;
+}
+
+/*Hover effekt på länkarna*/
+nav ul li:hover::after {
+    width: 100%;
+}
+  
+  

@@ -1,0 +1,27 @@
+/*Ändrar footern, gör så att den är på botten av skärmen*/
+footer{
+    background-color: rgb(122, 122, 122);
+    position:absolute;
+    bottom:0;
+    width:100%; 
+    height: 75px;
+}
+
+/*Ändrar texten*/
+p{
+    border-width: 0.1em;
+    font-size: 2em;
+    font-family: 'Times New Roman', Times, serif;
+}
+/*Gör så att texten i footern blir underlinad*/
+footer p{
+    text-decoration: underline #EEE;
+  
+}
+/*En klass på en viss text så att bara den flyttar*/
+.pepe{
+    margin-left: 30%;
+    margin-top: 0.5%;
+}
+
+

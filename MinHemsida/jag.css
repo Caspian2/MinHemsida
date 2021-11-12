@@ -1,0 +1,30 @@
+/*Flyttar tabelen åt sidan*/
+div > table{
+    margin-left: 5%;
+ /*Gör tabelen snygg*/   
+}
+table, td, th{
+    border: solid #ddd 2px;
+    border-collapse: collapse;   
+    height: 2em;
+}
+/*Zebra striping*/
+tr:nth-child(even){
+    background-color: magenta;
+    color: black;
+    font-weight: bold;
+    
+}
+/*ändrar lite saker om headern*/
+th{
+    text-align: center;
+    padding: 7px;
+}
+/*Ändrar padding i datan*/
+td{
+    padding: 0px;
+}
+.lista{
+margin-left: 40%;
+margin-top: 1px;
+}
